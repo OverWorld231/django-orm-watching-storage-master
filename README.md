@@ -21,6 +21,7 @@ pip install -r requirements.txt
 python main.py runserver
 ```
 ## Переменные окружения
+```
 DB_ENGINE = "django.db.backends.postgresql_psycopg2" - управление и соединение с базой данных 
 DB_PASSWORD = "123abc" - хранит пароль пользователя
 DB_HOST = "bank.security.host"  - хранит имя хоста
@@ -30,6 +31,7 @@ DB_NAME = "bank" - хранит название базы данных
 SECRET_KEY = "secret_key" - хранит в себе секретный ключ
 DEBUG = "False" - включает или отключает режим отладки True/False
 ALLOWED_HOSTS = "" - список хостов/доменов
+```
 
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org.](https://dvmn.org/)
