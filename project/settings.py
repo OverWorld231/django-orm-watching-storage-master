@@ -20,7 +20,7 @@ DEBUG = os.getenv("DEBUG", True)
 
 ROOT_URLCONF = 'project.urls'
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ["*"])
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ["127.0.0.1"])
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
