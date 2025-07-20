@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Запуск сервера:
 
 ```
-python main.py runserver
+python manage.py runserver
 ```
 ## Переменные окружения
 ```
